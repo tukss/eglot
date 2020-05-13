@@ -110,6 +110,7 @@ language-server/bin/php-language-server.php"))
                                 (elixir-mode . ("language_server.sh"))
                                 (ada-mode . ("ada_language_server"))
                                 (scala-mode . ("metals-emacs"))
+                                ((fortran-mode f90-mode) . ("fortls"))
                                 ((tex-mode context-mode texinfo-mode bibtex-mode)
                                  . ("digestif")))
   "How the command `eglot' guesses the server to start.

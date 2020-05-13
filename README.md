@@ -44,6 +44,7 @@ for the language you're using. Otherwise, it prompts you to enter one.
 * Elixir's [elixir-ls][elixir-ls]
 * Ada's [ada_language_server][ada_language_server]
 * Scala's [metals][metals]
+* Fortran's [fortls][fortls]
 * TeX/LaTeX's [Digestif][digestif]
 
 I'll add to this list as I test more servers. In the meantime you can
@@ -528,6 +529,7 @@ Under the hood:
 [news]: https://github.com/joaotavora/eglot/blob/master/NEWS.md
 [ada_language_server]: https://github.com/AdaCore/ada_language_server
 [metals]: http://scalameta.org/metals/
+[fortls]: https://github.com/hansec/fortran-language-server
 [digestif]: https://github.com/astoff/digestif
 [company]: http://elpa.gnu.org/packages/company.html
 [flymake]: https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top
